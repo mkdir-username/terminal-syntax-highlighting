@@ -1,0 +1,25 @@
+name: Monokai Errors
+accent: '#f92672'
+background: '#272822'
+foreground: '#f8f8f2'
+details: darker
+
+terminal_colors:
+  normal:
+    black: '#272822'
+    red: '#f92672'
+    green: '#a6e22e'
+    yellow: '#f4bf75'
+    blue: '#66d9ef'
+    magenta: '#ae81ff'
+    cyan: '#a1efe4'
+    white: '#f8f8f2'
+  bright:
+    black: '#75715e'
+    red: '#ff0066'
+    green: '#7fff00'
+    yellow: '#ffd700'
+    blue: '#00bfff'
+    magenta: '#da70d6'
+    cyan: '#00ffff'
+    white: '#f9f9f9'

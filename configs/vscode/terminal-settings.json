@@ -1,0 +1,55 @@
+{
+  // ═══════════════════════════════════════════════════════════════
+  // VSCODE INTEGRATED TERMINAL CONFIGURATION
+  // Enhanced syntax highlighting optimized for dark themes
+  // ═══════════════════════════════════════════════════════════════
+
+  // Terminal Colors - Optimized for visibility on dark backgrounds
+  "workbench.colorCustomizations": {
+    // ANSI Colors (Normal)
+    "terminal.ansiBlack": "#1e1e2e",
+    "terminal.ansiRed": "#f38ba8",          // Bright red for errors (ANSI 203)
+    "terminal.ansiGreen": "#a6e3a1",        // Green for success
+    "terminal.ansiYellow": "#f9e2af",       // Yellow for warnings
+    "terminal.ansiBlue": "#89b4fa",         // Blue for info
+    "terminal.ansiMagenta": "#cba6f7",      // Magenta for special
+    "terminal.ansiCyan": "#94e2d5",         // Cyan for paths/headers
+    "terminal.ansiWhite": "#cdd6f4",        // White for text
+
+    // ANSI Colors (Bright)
+    "terminal.ansiBrightBlack": "#585b70",  // Gray for secondary info
+    "terminal.ansiBrightRed": "#f38ba8",    // Same bright red
+    "terminal.ansiBrightGreen": "#a6e3a1",
+    "terminal.ansiBrightYellow": "#f9e2af",
+    "terminal.ansiBrightBlue": "#89b4fa",
+    "terminal.ansiBrightMagenta": "#cba6f7",
+    "terminal.ansiBrightCyan": "#94e2d5",
+    "terminal.ansiBrightWhite": "#f8f8f2",
+
+    // Terminal UI
+    "terminal.background": "#1e1e2e",
+    "terminal.foreground": "#cdd6f4",
+    "terminal.selectionBackground": "#585b7080",
+    "terminalCursor.background": "#1e1e2e",
+    "terminalCursor.foreground": "#f5e0dc"
+  },
+
+  // Git Decorations Colors
+  "git.decorations.addedColor": "#a6e3a1",
+  "git.decorations.modifiedColor": "#f9e2af",
+  "git.decorations.deletedColor": "#f38ba8",
+  "git.decorations.untrackedColor": "#f38ba8",
+  "git.decorations.ignoredColor": "#585b70",
+  "git.decorations.conflictingColor": "#fab387",
+  "git.decorations.submoduleColor": "#89b4fa",
+
+  // Terminal Behavior
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.shellIntegration.enabled": true
+}
