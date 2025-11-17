@@ -4,6 +4,8 @@ Universal terminal syntax highlighting system optimized for **JavaScript/TypeScr
 
 Enhanced visual feedback for errors, warnings, success messages, and file paths across **all major terminals**: Warp, iTerm2, VSCode integrated terminal, and standard terminals.
 
+**NEW:** 🌟 **AMOLED Mode** - Ultra-bright colors optimized for pure black (#000000) backgrounds on OLED displays!
+
 ## ✨ Features
 
 ### 🎯 Smart Error Detection
@@ -26,6 +28,13 @@ Inspired by **GitHub AMOLED** theme:
 - **Yellow warnings** (#f9e2af) for non-critical issues
 - **Green success** (#a6e3a1) for completed operations
 - **Cyan paths** (#94e2d5) for file locations
+
+**AMOLED Mode Colors** (for OLED displays):
+- **Ultra-bright red** (#FF5555) for errors
+- **Pure yellow** (#FFFF00) for warnings  
+- **Vivid green** (#00FF00) for success
+- **Electric cyan** (#00FFFF) for paths and info
+- Optimized for **#000000** pure black background
 
 ### 🎨 Universal Terminal Support
 - ✅ **Warp Terminal** - 3 custom themes included
@@ -91,6 +100,47 @@ cd ~/terminal-syntax-highlighting
    ```
 
 5. **Apply terminal themes** (choose your terminal below)
+
+## 🌟 AMOLED Mode (NEW!)
+
+For OLED displays with pure black backgrounds, use the AMOLED mode with ultra-bright contrast colors:
+
+### Quick Toggle
+
+```bash
+# Enable AMOLED mode (ultra-bright colors)
+amoled-on
+
+# Disable AMOLED mode (standard colors)
+amoled-off
+
+# Check status
+amoled status
+```
+
+### Manual Setup
+
+1. **Add to `.zshrc`** (after standard config):
+   ```bash
+   # Enable AMOLED colors
+   export ZSH_AMOLED_MODE=1
+   source ~/terminal-syntax-highlighting/configs/zsh/amoled_colors.zsh
+   ```
+
+2. **Set iTerm2 background to pure black**:
+   - iTerm2 → Settings → Profiles → Colors
+   - Background → #000000 (pure black)
+
+3. **Reload shell**:
+   ```bash
+   source ~/.zshrc
+   ```
+
+### What Changes in AMOLED Mode?
+- ✅ Pure black background (#000000) instead of dark gray
+- ✅ Ultra-bright colors (RGB values: 255, not 200)
+- ✅ Maximum contrast for OLED power saving
+- ✅ Optimized for React/Node/Jest/TypeScript errors
 
 ## 🎨 Terminal-Specific Setup
 
